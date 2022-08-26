@@ -13,6 +13,11 @@ var li2 = document.createElement("li");
 var li3 = document.createElement("li");
 var li4 = document.createElement("li");
 
+li1.textContent = "Apples";
+li2.textContent = "Pizza";
+li3.textContent = "Dumplings";
+li4.textContent = "Cupcakes";
+
 h1El.textContent = "Welcome to my page";
 kittenEl.textContent = "This is my kitten 🐱.";
 nameEl.textContent = "His name is Jax.";
@@ -28,11 +33,17 @@ favoriteEl.appendChild(listEl);
 // Append ordered list 
 favoriteEl.appendChild(listEl);
 
+listEl.appendChild(li1);
+listEl.appendChild(li2);
+listEl.appendChild(li3);
+listEl.appendChild(li4);
+
 h1El.setAttribute("style", "margin:auto; width:50%; text-align:center;");
 infoEl.setAttribute("style", "margin:auto; width:50%; text-align:center;");
 imgEl.setAttribute("src", "http://placekitten.com/200/300");
 nameEl.setAttribute("style", "font-size:25px; text-align:center;");
 kittenEl.setAttribute("style", "font-size:25px; text-align:center;");
 favoriteEl.setAttribute("style", "font-size:20px;");
-
+listEl.setAttribute("style", "background-color#333333", "padding: 20px", "color: white");
 // TODO: Add ordered list items containing four favorite foods
+
