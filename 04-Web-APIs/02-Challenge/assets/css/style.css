@@ -133,7 +133,7 @@ body{
 .quiz_box header .timer .time_left_txt{
     font-weight: 400;
     font-size: 17px;
-    user-select: none;
+    -webkit-user-select: none;
 }
 .quiz_box header .timer .timer_sec{
     font-size: 18px;
@@ -146,7 +146,7 @@ body{
     text-align: center;
     background: #343a40;
     border: 1px solid #343a40;
-    user-select: none;
+    -webkit-user-select: none;
 }
 .quiz_box header .time_line{
     position: absolute;
@@ -232,7 +232,7 @@ footer{
 }
 footer .total_que span{
     display: flex;
-    user-select: none;
+    -webkit-user-select: none;
 }
 footer .total_que span p{
     font-weight: 500;
